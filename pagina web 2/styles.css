@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5d0577;
+    color: #dfa9a9;
+    text-align: center;
+    padding: 60px;
+}
+
+.reproductor, .galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.video, .descripcion {
+    flex: 1;
+    margin: 20px;
+}
+
+.video video {
+    max-width: 100%;
+}
+
+.item {
+    text-align: center;
+    margin: 20px;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(58, 11, 51, 0.1);
+}
+
+footer {
+    background-color: #7708df;
+    color: #d39393;
+    text-align: center;
+    padding: 10px;
+    margin-top:16% ;
+}
+.centrarestetexto{
+    text-align: center
+}
+margin: :right 20%;
